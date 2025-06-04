@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT DOT NET SOLUTIONS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="top-bar">
+        <p>
+            <a href="mailto:info@itdotnetsolutions.com"><i class="fas fa-envelope"></i>info@itdotnetsolutions.com</a> |
+            <a href="https://wa.me/916301771326" target="_blank"><i class="fas fa-phone"></i>+91 6301771326</a>
+        </p>
+    </div>
+    <header>
+        <div class="header-container">
+            <a href="itdotnetsolutions.html" class="logo-link">
+                <img src="images/logo.png" alt="IT DOT NET SOLUTIONS Logo" class="logo" />
+            </a>
+
+            <nav class="navbar">
+                <ul>
+                    <li class="dropdown">ALL COURSES
+                        <ul class="submenu">
+                            <li><a href="?course=dotnet" rel="noopener noreferrer">.NET</a></li>
+                            <li><a href="?course=java" rel="noopener noreferrer">JAVA</a></li>
+                            <li><a href="?course=python" rel="noopener noreferrer">PYTHON</a></li>
+                            <li><a href="?course=datascience" rel="noopener noreferrer">DATA SCIENCE</a></li>
+                            <li><a href="?course=genai" rel="noopener noreferrer">GEN AI</a></li>
+                            <li><a href="?course=dataanalytics" rel="noopener noreferrer">DATA ANALYTICS</a></li>
+                            <li><a href="?course=testing" rel="noopener noreferrer">TESTING</a></li>
+                            <li><a href="?course=powerbi" rel="noopener noreferrer">POWER BI</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="navbar">
+                <ul>
+                    <li class="dropdown">ABOUT
+                        <ul class="submenu">
+                            <li><a href="?course=about" rel="noopener noreferrer">About It Dot Net Solutions</a></li>
+                            <li><a href="?course=ourtheme" rel="noopener noreferrer">Our Theme</a></li>
+                            <li><a href="?course=careers" rel="noopener noreferrer">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="navbar">
+                <ul>
+                    <li class="dropdown">TRAINING
+                        <ul class="submenu">
+                            <li><a href="?course=newbatches" rel="noopener noreferrer">New Batches</a></li>
+                            <li><a href="?course=interviewquestions" rel="noopener noreferrer">Interview Questions</a>
+                            </li>
+                            <li><a href="?course=jobassistance" rel="noopener noreferrer">Job Assistance</a></li>
+                            <li><a href="?course=placementregi" rel="noopener noreferrer">Placement Registration</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="navbar">
+                <ul>
+                    <li class="dropdown">SERVICES
+                        <ul class="submenu">
+                            <li><a href="?course=classrootr" rel="noopener noreferrer">Classroom Training</a></li>
+                            <li><a href="?course=onlinetr" rel="noopener noreferrer">Online Training</a></li>
+                            <li><a href="?course=weekendtr" rel="noopener noreferrer">Weekend Training</a></li>
+                            <li><a href="?course=realtimepro" rel="noopener noreferrer">RealTime Projects</a></li>
+                            <li><a href="?course=corporatetr" rel="noopener noreferrer">Corporate Training</a></li>
+                            <li><a href="?course=internships" rel="noopener noreferrer">Internships</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="slide fade" id="dotnet-slide" style="cursor: pointer;">
+            <img src="images/Dot Net Development Company.png" style="width:100%; height: 430px;">
+        </div>
+
+        <div class="slide fade" id="java-slide" style="cursor: pointer;">
+            <img src="images/javam.png" style="width:100%; height: 430px;">
+        </div>
+        <div class="slide fade" id="python-slide" style="cursor: pointer;">
+            <img src="images/pythonm.png" style="width:100%; height: 430px;">
+        </div>
+        <div class="slide fade" id="powerbi-slide" style="cursor: pointer;">
+            <img src="images/powerbi.png" style="width:100%; height: 430px;">
+        </div>
+        <div class="slide fade" id="testing-slide" style="cursor: pointer;">
+            <img src="images/software-testing.png" style="width:100%; height: 430px;">
+        </div>
+        <div class="slide fade" id="datascience-slide" style="cursor: pointer;">
+            <img src="images/datascience.jpg" style="width:100%; height: 430px;">
+        </div>
+        <div class="slide fade" id="dataanalytics-slide" style="cursor: pointer;">
+            <img src="images/dataa.png" style="width:100%; height: 430px;">
+        </div>
+        <div class="slide fade" id="genai-slide" style="cursor: pointer;">
+            <img src="images/genAi.png" style="width:100%; height: 430px;">
+        </div>
+        <!-- Left arrow -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <!-- Right arrow -->
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- careers -->
+    <div class="about-section" id="careers"
+        style="display: none; padding: 20px; height: 300px; overflow-y: auto; border: 1px solid #ccc;">
+        <h2>Careers at IT DOT NET SOLUTIONS</h2>
+        <p><strong>Unlock your potential</strong> with <strong>IT DOT NET SOLUTIONS</strong>, a leading name in
+            education and technology. Join our team and be part of an innovative, collaborative, and growth-oriented
+            workplace. Explore the most sought-after positions in the industry:</p>
+
+        <ol>
+            <li><strong>Faculty Registration:</strong></br> Join as a faculty member and share your expertise with the
+                next generation.</li>
+            <li><strong>Lab Coordinators:</strong><br> Coordinate state-of-the-art labs for optimal hands-on learning
+                experiences.</li>
+            <li><strong>Mentors:</strong><br> Guide aspiring minds and shape careers as a mentor at IT DOT NET
+                SOLUTIONS.</li>
+            <li><strong>Course Counsellors:</strong><br> Help individuals make informed decisions about their
+                educational journey.</li>
+            <li><strong>Telecallers:</strong><br> Be the first point of contact for potential students interested in IT
+                DOT NET SOLUTIONS courses.</li>
+            <li><strong>Digital Marketing Executives:</strong><br> Drive our brand presence through online marketing,
+                SEO, and social media.</li>
+        </ol>
+
+        <h3>Why Choose IT DOT NET SOLUTIONS?</h3>
+        <ul>
+            <li><strong>Innovative Learning Environment:</strong></br> Immerse yourself in a dynamic and
+                forward-thinking workspace.</li>
+            <li><strong>Collaborative Team Culture:</strong></br> Be part of a supportive team where your ideas are
+                valued.</li>
+            <li><strong>Career Advancement Opportunities:</strong></br> Grow your skills and advance your career with
+                us.</li>
+            <li><strong>Impactful Work:</strong> </br>Contribute to transforming lives through education and technology.
+            </li>
+        </ul>
+
+        <p>Ready to make an impact? Join our journey today!</p>
+    </div>
+
+    <!-- about -->
+    <div class="about-section" id="about"
+        style="display: none; padding: 20px; height: 300px; overflow-y: auto; border: 1px solid #ccc;">
+        <p><strong>IT DOT NET SOLUTIONS</strong> is a leading IT training institute providing world-class education
+            in software technologies like .NET, Java, Python, Data Science, Power BI, and more.</p>
+        <p>We are committed to bridging the gap between academia and industry by offering practical, hands-on
+            training under expert guidance. Our goal is to build skilled professionals ready for the global IT job
+            market.</p>
+
+        <ul class="features">
+            <li>Real-time project training</li>
+            <li>👨‍🏫 Experienced industry trainers</li>
+            <li>📅 Flexible schedules (online & offline)</li>
+            <li>💼 Job assistance and interview preparation</li>
+            <li>🏢 Corporate training options</li>
+        </ul>
+    </div>
+
+    <!-- our theme -->
+    <div class="about-section" id="ourtheme"
+        style="display: none; padding: 20px; height: 300px; overflow-y: auto; border: 1px solid #ccc;">
+        <h2>Our Theme</h2>
+        <h3 style="color: #2c3e50;">"Innovating Tomorrow: Empowering Through Technology"</h3>
+
+        <p>Welcome to the heart of our organisation's theme, <strong>"Innovating Tomorrow: Empowering Through
+                Technology."</strong> It encapsulates our commitment to pushing the boundaries of what's possible in the
+            dynamic landscape of the IT industry.</p>
+
+        <h4>The Power of Innovation</h4>
+        <p>Explore the driving force behind our theme — innovation. Discover how our organisation embraces creativity,
+            encourages out-of-the-box thinking, and consistently seeks new ways to solve challenges through
+            groundbreaking technological solutions.</p>
+
+        <h4>Technology as an Empowerment Tool</h4>
+        <p>Dive into the transformative role of technology in empowering individuals and businesses.</p>
+
+        <h4>Future-Focused Solutions</h4>
+        <p>Discover our organisation's dedication to staying ahead of the curve by delivering cutting-edge solutions for
+            tomorrow's challenges.</p>
+
+        <p>Our organisation fosters a culture that values teamwork, synergy, and interconnectedness to drive innovation
+            and create impactful technological solutions.</p>
+
+        <p><strong>IT DOT NET SOLUTIONS</strong> strives to balance technological advancement with environmental
+            responsibility, contributing to a sustainable and responsible digital future.</p>
+
+        <p>We encourage a culture of continuous learning by embracing diversity and inclusion, thus empowering the
+            future generation.</p>
+
+        <p><strong>"Innovating Tomorrow: Empowering Through Technology"</strong> is not just a theme but a guiding
+            philosophy that shapes our organisation's identity. Join us on this journey of innovation, empowerment, and
+            technological excellence as we pave the way for a brighter digital future.</p>
+    </div>
+
+    <!-- //.NET Course Details -->
+    <div class="course-content" id="dotnet" style="display:none; padding: 20px;">
+        <h2>.NET Course Content</h2>
+
+        <div class="scrollable-course-sections" style="max-height: 400px; overflow-y: auto;">
+            <div class="course-section">
+                <h2>C#.NET</h2>
+                <p><b>is a modern, object-oriented programming language developed by Microsoft. It is widely used
+                        for building Windows applications, web services, and games using the .NET framework.</b></p>
+                <img src="images/Csharp1.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>ADO.NET</h2>
+                <p><b>provides a set of classes that expose data access services for .NET Framework
+                        programmers. It is used to interact with data sources such as databases in a disconnected
+                        manner.</b></p>
+                <img src="images/ado.png" alt="ADO.NET" />
+            </div>
+
+            <div class="course-section">
+                <h2>ASP.NET</h2>
+                <p>
+                    <b>Web Forms is a powerful framework for building dynamic, event-driven web applications
+                        with a rich set of server controls and simplified page lifecycle management. It allows
+                        developers to create interactive user interfaces easily and efficiently.</b>
+                </p>
+                <img src="images/web.png" alt="ASP.NET Web Forms" />
+            </div>
+
+            <div class="course-section">
+                <h2>ASP.NET MVC</h2>
+                <p>
+                    <b>is a web application framework developed by Microsoft that implements the
+                        Model-View-Controller pattern. It enables developers to build scalable and maintainable web
+                        applications with clear separation of concerns.</b>
+                </p>
+                <img src="images/MVC.jpg" alt="ASP.NET Web Forms" />
+            </div>
+
+            <div class="course-section">
+                <h2>ASP.NET Core</h2>
+                <p>
+                    <b>is a modern, cross-platform, high-performance framework for building cloud-based web
+                        applications, APIs, and microservices. It is the evolution of ASP.NET with improved modularity
+                        and flexibility.</b>
+                </p>
+                <img src="images/core.png" alt="ASP.NET Web Forms" />
+            </div>
+
+            <div class="course-section">
+                <h2>LINQ(Language Integrated Query)</h2>
+                <p>
+                    <b>is a feature in .NET languages that provides querying
+                        capabilities directly in C# or VB.NET. LINQ allows you to query collections, databases, XML, and
+                        more using a consistent syntax.</b>
+                </p>
+                <img src="images/linq.png" alt="ASP.NET Web Forms" />
+            </div>
+
+            <div class="course-section">
+                <h2>Entity Framework</h2>
+                <p>
+                    <b>is an object-relational mapper (ORM) for .NET, enabling developers to work
+                        with a database using .NET objects. It eliminates much of the data-access code typically needed
+                        and supports LINQ queries.</b>
+                </p>
+                <img src="images/ef.jpg" alt="ASP.NET Web Forms" />
+            </div>
+
+            <div class="course-section">
+                <h2>SQL Server</h2>
+                <p>
+                    <b>is a relational database management system used to store and retrieve data
+                        as requested by other software applications. It supports complex queries, transactions, and
+                        business intelligence.</b>
+                </p>
+                <img src="images/sql.png" alt="ASP.NET Web Forms" />
+            </div>
+        </div>
+    </div>
+
+    <!-- //JAVA Course Content -->
+    <div class="course-content" id="java" style="display:none; padding: 20px;">
+        <h2>JAVA Course Content</h2>
+        <div class="scrollable-course-sections" style="max-height: 400px; overflow-y: auto;">
+            <div class="course-section">
+                <h2>Core Java</h2>
+                <p><b>refers to the fundamentals of the Java programming language. It includes basic concepts
+                        like OOPs, data types, control statements, arrays, exception handling, and standard classes
+                        needed for developing standalone applications.</b></p>
+                <img src="images/corej.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>Advanced Java</h2>
+                <p><b>builds on Core Java and focuses on web technologies, networking, and enterprise-level application
+                        development using Servlets, JSP, JDBC, and more.</b></p>
+                <img src="images/Advanced-Java.jpg" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>Spring Boot</h2>
+                <p><b>is a framework that simplifies the development of Java-based enterprise applications. It provides
+                        a faster and more efficient way to set up, develop, and deploy Spring applications with embedded
+                        servers and minimal configuration.</b></p>
+                <img src="images/Spring-Boot.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>SQL Server</h2>
+                <p>
+                    <b>is a relational database management system used to store and retrieve data
+                        as requested by other software applications. It supports complex queries, transactions, and
+                        business intelligence.</b>
+                </p>
+                <img src="images/sql.png" alt="ASP.NET Web Forms" />
+            </div>
+        </div>
+    </div>
+
+    <!-- PYTHON Course Content -->
+    <div class="course-content" id="python" style="display:none; padding: 20px;">
+        <h2>PYTHON Course Content</h2>
+        <div class="scrollable-course-sections" style="max-height: 400px; overflow-y: auto;">
+            <div class="course-section">
+                <h2>Core Python</h2>
+                <p><b>includes the basics of Python programming, such as syntax, data types, functions, loops, and
+                        object-oriented programming. It forms the foundation for all advanced topics in Python.</b></p>
+                <img src="images/corepy.jpg" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>Django</h2>
+                <p><b>is a high-level Python web framework that promotes rapid development and clean design. It comes
+                        with built-in features for authentication, admin panels, and database interaction.</b></p>
+                <img src="images/python-django.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>Flask</h2>
+                <p><b>is a lightweight Python web framework used for building simple, scalable web apps and APIs. It
+                        offers flexibility and control with minimal setup.</b></p>
+                <img src="images/flask.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>NumPy</h2>
+                <p><b>is a fundamental Python library for numerical computing. It provides support for arrays, matrices,
+                        and high-level mathematical functions.</b></p>
+                <img src="images/numpy.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>Pandas</h2>
+                <p><b>is a data analysis library built on top of NumPy. It provides data structures like Series and
+                        DataFrame for handling and analyzing structured data.</b></p>
+                <img src="images/pandas.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>Matplotlib</h2>
+                <p><b>is a comprehensive Python library for creating static, animated, and interactive
+                        visualizations.</b></p>
+                <img src="images/Matplotlib.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>SciPy</h2>
+                <p><b>builds on NumPy and provides modules for optimization, integration, interpolation, and scientific
+                        computing tasks.</b></p>
+                <img src="images/scipy.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>Scikit-learn</h2>
+                <p><b>is a machine learning library that offers simple and efficient tools for data mining, analysis,
+                        and building ML models.</b></p>
+                <img src="images/scikit.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>SQLAlchemy</h2>
+                <p><b>is a SQL toolkit and ORM for Python. It allows developers to interact with databases using Python
+                        classes instead of raw SQL.</b></p>
+                <img src="images/sqlal.png" alt="C# Programming" />
+            </div>
+
+            <div class="course-section">
+                <h2>Jupyter Notebooks</h2>
+                <p><b>provide an interactive computing environment that enables users to combine code execution, text,
+                        and visualizations in one document.</b></p>
+                <img src="images/note.png" alt="C# Programming" />
+            </div>
+        </div>
+    </div>
+
+    <!-- ds Course Content -->
+    <div class="course-content" id="datascience" style="display:none; padding: 20px;">
+        <h2>DATA SCIENCE Course Content</h2>
+        <div class="scrollable-course-sections" style="max-height: 400px; overflow-y: auto;">
+            <div class="course-section">
+                <h2>Core Java</h2>
+                <p><b>refers to the fundamentals of the Java programming language. It includes basic concepts
+                        like OOPs, data types, control statements, arrays, exception handling, and standard classes
+                        needed for developing standalone applications.</b></p>
+                <img src="images/corej.png" alt="C# Programming" />
+            </div>
+        </div>
+    </div>
+
+    <!-- genai Course Content -->
+    <div class="course-content" id="genai" style="display:none; padding: 20px;">
+        <h2>GEN AI Course Content</h2>
+        <div class="scrollable-course-sections" style="max-height: 400px; overflow-y: auto;">
+            <div class="course-section">
+                <h2>Core Java</h2>
+                <p><b>refers to the fundamentals of the Java programming language. It includes basic concepts
+                        like OOPs, data types, control statements, arrays, exception handling, and standard classes
+                        needed for developing standalone applications.</b></p>
+                <img src="images/corej.png" alt="C# Programming" />
+            </div>
+        </div>
+    </div>
+
+    <!-- da Course Content -->
+    <div class="course-content" id="dataanalytics" style="display:none; padding: 20px;">
+        <h2>DATA ANALYTICS Course Content</h2>
+        <div class="scrollable-course-sections" style="max-height: 400px; overflow-y: auto;">
+            <div class="course-section">
+                <h2>Core Java</h2>
+                <p><b>refers to the fundamentals of the Java programming language. It includes basic concepts
+                        like OOPs, data types, control statements, arrays, exception handling, and standard classes
+                        needed for developing standalone applications.</b></p>
+                <img src="images/corej.png" alt="C# Programming" />
+            </div>
+        </div>
+    </div>
+
+    <!-- testing Course Content -->
+    <div class="course-content" id="testing" style="display:none; padding: 20px;">
+        <h2>TESTING Course Content</h2>
+        <div class="scrollable-course-sections" style="max-height: 400px; overflow-y: auto;">
+            <div class="course-section">
+                <h2>Core Java</h2>
+                <p><b>refers to the fundamentals of the Java programming language. It includes basic concepts
+                        like OOPs, data types, control statements, arrays, exception handling, and standard classes
+                        needed for developing standalone applications.</b></p>
+                <img src="images/corej.png" alt="C# Programming" />
+            </div>
+        </div>
+    </div>
+
+    <!-- powerbi Course Content -->
+    <div class="course-content" id="powerbi" style="display:none; padding: 20px;">
+        <h2>POWER BI Course Content</h2>
+        <div class="scrollable-course-sections" style="max-height: 400px; overflow-y: auto;">
+            <div class="course-section">
+                <h2>Core Java</h2>
+                <p><b>refers to the fundamentals of the Java programming language. It includes basic concepts
+                        like OOPs, data types, control statements, arrays, exception handling, and standard classes
+                        needed for developing standalone applications.</b></p>
+                <img src="images/corej.png" alt="C# Programming" />
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 IT DOT NET SOLUTIONS. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        window.onload = () => {
+            const course = getQueryParam('course');
+            const slideshow = document.querySelector('.slideshow-container');
+
+            document.querySelectorAll('.course-content').forEach(div => {
+                div.style.display = 'none';
+            });
+
+            if (course) {
+                if (slideshow) slideshow.style.display = 'none';
+                const selectedCourseDiv = document.getElementById(course);
+                if (selectedCourseDiv) {
+                    selectedCourseDiv.style.display = 'block';
+                } else {
+                    if (slideshow) slideshow.style.display = 'block';
+                }
+            } else {
+                if (slideshow) slideshow.style.display = 'block';
+            }
+
+            if (window.location.search) {
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+
+            document.getElementById('dotnet-slide').addEventListener('click', () => {
+                const dotnetContent = document.getElementById('dotnet');
+                if (slideshow) slideshow.style.display = 'none';
+                if (dotnetContent) dotnetContent.style.display = 'block';
+            });
+
+            document.getElementById('java-slide').addEventListener('click', () => {
+                const javaContent = document.getElementById('java');
+                if (slideshow) slideshow.style.display = 'none';
+                if (javaContent) javaContent.style.display = 'block';
+            });
+
+            document.getElementById('python-slide').addEventListener('click', () => {
+                const pythonContent = document.getElementById('python');
+                if (slideshow) slideshow.style.display = 'none';
+                if (pythonContent) pythonContent.style.display = 'block';
+            });
+
+            document.getElementById('genai-slide').addEventListener('click', () => {
+                const genaiContent = document.getElementById('genai');
+                if (slideshow) slideshow.style.display = 'none';
+                if (genaiContent) genaiContent.style.display = 'block';
+            });
+
+            document.getElementById('testing-slide').addEventListener('click', () => {
+                const testingContent = document.getElementById('testing');
+                if (slideshow) slideshow.style.display = 'none';
+                if (testingContent) testingContent.style.display = 'block';
+            });
+
+            document.getElementById('powerbi-slide').addEventListener('click', () => {
+                const powerbiContent = document.getElementById('powerbi');
+                if (slideshow) slideshow.style.display = 'none';
+                if (powerbiContent) powerbiContent.style.display = 'block';
+            });
+
+            document.getElementById('datascience-slide').addEventListener('click', () => {
+                const datascienceContent = document.getElementById('datascience');
+                if (slideshow) slideshow.style.display = 'none';
+                if (datascienceContent) datascienceContent.style.display = 'block';
+            });
+
+            document.getElementById('dataanalytics-slide').addEventListener('click', () => {
+                const dataanalyticsContent = document.getElementById('dataanalytics');
+                if (slideshow) slideshow.style.display = 'none';
+                if (dataanalyticsContent) dataanalyticsContent.style.display = 'block';
+            });
+        };
+
+        let slideIndex = 1;
+
+        function showSlides(n) {
+            const slides = document.getElementsByClassName("slide");
+            if (n > slides.length) slideIndex = 1;
+            if (n < 1) slideIndex = slides.length;
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+        }
+
+        function changeSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function autoShowSlides() {
+            const slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) slideIndex = 1;
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(autoShowSlides, 3000);
+        }
+
+        window.addEventListener('load', () => {
+            if (!getQueryParam('course')) {
+                showSlides(slideIndex);
+                setTimeout(autoShowSlides, 3000);
+            }
+        });
+    </script>
+</body>
+
+</html>
